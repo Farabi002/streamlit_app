@@ -30,10 +30,10 @@ if button_clicked:
         total_marks = df.loc[df['Student ID'] == student_id, 'Total Marks'].values[0]
         if total_marks >= 12:
             with st.expander("Result", expanded=True):
-             st.write(f'Total Marks: {total_marks} (passed)')
+             st.write(f'Total Marks: {total_marks} (passed)😎😎')
         else:
            with st.expander("Result", expanded=True):
-             st.write(f'Total Marks: {total_marks} (failed)')
+             st.write(f'Total Marks: {total_marks} (failed)🐍🐍')
     else: 
         st.write('Wrong Student ID')
 
