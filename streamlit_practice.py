@@ -5,7 +5,7 @@ import pandas as pd
 st.header('Welcome !!')
 
 
-df = pd.read_excel(r'C:\Users\FARABI\Desktop\Webapp\BME_401_CT_ Marksheet.xlsx')
+df = pd.read_excel('BME_401_CT_ Marksheet.xlsx')
 
 # Text input field
 student_id = pd.to_numeric(st.text_input("Enter Student ID:"), errors='coerce')
